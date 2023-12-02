@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1247711303695063293
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7627832343739681825}
+  - component: {fileID: 5874884555207069341}
+  - component: {fileID: 917350518466330056}
+  m_Layer: 0
+  m_Name: LoadNext
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7627832343739681825
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1247711303695063293}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -88.78595, y: -5.8942585, z: 75.16561}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5874884555207069341
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1247711303695063293}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c27502b5d586946a59ef4fe94730983c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 6640478585928110674, guid: 839e7d1f3ef08486b84e9e06d68ec80a, type: 3}
+  mainCamera: {fileID: 1039020499016946667, guid: 6281c2a807bab432ca1ab1a48a99836c, type: 3}
+  UICanvas: {fileID: 6254704704286235293, guid: 4b750a9ffadd04c338310ab65dee498d, type: 3}
+  renderCanvas: {fileID: 4521044437168840826, guid: db6a79e30eeb54e0da6d550339b09e9f, type: 3}
+  virtualCamera: {fileID: 5045350489184492067, guid: 4b21df32e936b40c9a5b833c73ee5964, type: 3}
+  renderCamera: {fileID: 7045306242977476305, guid: bc0cde8a1b1074c1597791d768393d75, type: 3}
+  customPass: {fileID: 1635923506468208672, guid: 12a4fef81395f432a85a1334b6efc3b7, type: 3}
+--- !u!135 &917350518466330056
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1247711303695063293}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 5
+  m_Center: {x: 0, y: 0, z: 0}

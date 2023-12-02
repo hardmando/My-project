@@ -1,0 +1,7 @@
+This license allows you to use the licensed content in any way, provided you attribute the author in the way specified by the license. You are not required to share modifications you make.
+
+http://creativecommons.org/licenses/by/3.0/
+
+--
+
+Attribute by including my email address in the credits: ville.seppanen@gmail.com

@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67c72e79609894daf88d05d660985845, type: 3}
+  m_Name: Note_0
+  m_EditorClassIdentifier: 
+  noteName: Order for Observation
+  noteContent: 'Privates! You are hereby ordered to investigate reports of strange
+    occurrences in (unreadable) Residents have reported missing persons and a mysterious
+    smog in the vicinity. Objectives: - Interview locals for information on recent
+    unusual incidents, particularly those involving missing persons. -Document instances
+    of reported smog, noting time, location, and any patterns. - Coordinate with
+    other law enforcement agencies for additional intelligence. - Report findings
+    daily. Exercise caution, prioritize safety, and maintain open communication.
+    Your prompt cooperation is crucial for public safety. Stay vigilant and stay
+    safe.'
